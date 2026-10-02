@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Famous Quotes | 100 Words of Wisdom</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,700;1,400;1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Header -->
+    <header class="app-header">
+      <div class="header-content">
+        <div class="brand">
+          <span class="brand-icon">❝</span>
+          <div>
+            <h1>Famous Quotes</h1>
+            <p class="subtitle">A timeless collection of 100 inspiring thoughts & perspectives</p>
+          </div>
+        </div>
+        <div class="header-badge" id="stats-badge">
+          <span class="badge-dot"></span>
+          <span>100 Curated Quotes</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Hero: Random Quote Generator -->
+      <section class="hero-section" aria-labelledby="hero-title">
+        <h2 id="hero-title" class="sr-only">Featured Quote</h2>
+        
+        <div class="hero-card" id="hero-card">
+          <div class="quote-header">
+            <span class="quote-category" id="hero-category">Inspiration</span>
+            <span class="quote-id" id="hero-id">#1</span>
+          </div>
+
+          <div class="quote-body">
+            <span class="quote-mark left">“</span>
+            <blockquote id="hero-text" class="quote-text">
+              Loading an inspiring quote...
+            </blockquote>
+            <span class="quote-mark right">”</span>
+          </div>
+
+          <div class="quote-author-wrap">
+            <div class="author-line"></div>
+            <cite id="hero-author" class="quote-author">— Author</cite>
+          </div>
+
+          <div class="hero-actions">
+            <button id="btn-random" class="btn btn-primary" title="Get another random quote">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"/>
+              </svg>
+              <span>Random Quote</span>
+            </button>
+
+            <button id="btn-copy-hero" class="btn btn-secondary" title="Copy quote to clipboard">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+              </svg>
+              <span>Copy</span>
+            </button>
+
+            <a id="btn-tweet" class="btn btn-outline" href="#" target="_blank" rel="noopener noreferrer" title="Share on Twitter / X">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+              </svg>
+              <span>Share</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Search & Filters Explorer -->
+      <section class="explorer-section" aria-labelledby="explorer-title">
+        <div class="section-heading">
+          <div>
+            <h2 id="explorer-title">Explore & Search Quotes</h2>
+            <p class="section-desc">Search by keywords, explore 10 categories, or filter by well-known authors</p>
+          </div>
+          <div class="results-counter" id="results-count">
+            Showing 100 of 100 quotes
+          </div>
+        </div>
+
+        <div class="filter-controls-card">
+          <!-- Text Search Row -->
+          <div class="search-box-row">
+            <div class="search-input-wrapper">
+              <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+              <input 
+                type="text" 
+                id="search-input" 
+                placeholder="Search quotes or authors (e.g., Einstein, wisdom, courage)..." 
+                autocomplete="off"
+                aria-label="Search quotes"
+              >
+              <button id="search-clear-btn" class="clear-btn" title="Clear search" aria-label="Clear search">×</button>
+            </div>
+          </div>
+
+          <!-- Category Chips -->
+          <div class="categories-bar">
+            <span class="filter-label">Categories:</span>
+            <div class="category-pills" id="category-pills">
+              <button class="pill active" data-category="all">All</button>
+              <!-- Dynamic category pills inserted here -->
+            </div>
+          </div>
+
+          <!-- Secondary Filters Row (Category select & Author select for mobile/precise filtering) -->
+          <div class="filters-row">
+            <div class="filter-group">
+              <label for="category-select">Category</label>
+              <select id="category-select" class="form-select">
+                <option value="all">All Categories (100)</option>
+              </select>
+            </div>
+
+            <div class="filter-group">
+              <label for="author-select">Author</label>
+              <select id="author-select" class="form-select">
+                <option value="all">All Authors</option>
+              </select>
+            </div>
+
+            <div class="filter-group filter-actions">
+              <button id="btn-reset-filters" class="btn btn-ghost" title="Reset all filters">
+                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/>
+                  <path d="M3 3v5h5"/>
+                </svg>
+                <span>Reset Filters</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quotes Results Grid -->
+        <div class="quotes-grid" id="quotes-grid" aria-live="polite">
+          <!-- Populated dynamically via Vanilla JS -->
+        </div>
+
+        <!-- Empty State -->
+        <div class="empty-state hidden" id="empty-state">
+          <div class="empty-icon">🔍</div>
+          <h3>No matching quotes found</h3>
+          <p>We couldn't find any quotes matching your current search or filter criteria.</p>
+          <button id="btn-clear-empty" class="btn btn-primary">Clear Filters</button>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+      <p>Crafted with <strong>Vanilla JavaScript</strong>, <strong>HTML5</strong>, and <strong>Python Flask</strong>.</p>
+      <p class="footer-note">Featuring 100 timeless quotes from history’s greatest thinkers, leaders, and artists.</p>
+    </footer>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast" role="status" aria-live="polite">
+    <svg class="toast-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <polyline points="20 6 9 17 4 12"></polyline>
+    </svg>
+    <span id="toast-message">Quote copied to clipboard!</span>
+  </div>
+
+  <script src="/static/js/app.js"></script>
+</body>
+</html>

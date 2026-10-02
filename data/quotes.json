@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "quote": "The only way to do great work is to love what you do.",
+    "author": "Steve Jobs",
+    "category": "Inspiration"
+  },
+  {
+    "id": 2,
+    "quote": "Believe you can and you're halfway there.",
+    "author": "Theodore Roosevelt",
+    "category": "Inspiration"
+  },
+  {
+    "id": 3,
+    "quote": "Act as if what you do makes a difference. It does.",
+    "author": "William James",
+    "category": "Inspiration"
+  },
+  {
+    "id": 4,
+    "quote": "What lies behind us and what lies before us are tiny matters compared to what lies within us.",
+    "author": "Ralph Waldo Emerson",
+    "category": "Inspiration"
+  },
+  {
+    "id": 5,
+    "quote": "The best time to plant a tree was 20 years ago. The second best time is now.",
+    "author": "Chinese Proverb",
+    "category": "Inspiration"
+  },
+  {
+    "id": 6,
+    "quote": "You are never too old to set another goal or to dream a new dream.",
+    "author": "C.S. Lewis",
+    "category": "Inspiration"
+  },
+  {
+    "id": 7,
+    "quote": "Spread love everywhere you go. Let no one ever come to you without leaving happier.",
+    "author": "Mother Teresa",
+    "category": "Inspiration"
+  },
+  {
+    "id": 8,
+    "quote": "It is during our darkest moments that we must focus to see the light.",
+    "author": "Aristotle",
+    "category": "Inspiration"
+  },
+  {
+    "id": 9,
+    "quote": "Keep your face always toward the sunshine, and shadows will fall behind you.",
+    "author": "Walt Whitman",
+    "category": "Inspiration"
+  },
+  {
+    "id": 10,
+    "quote": "The future belongs to those who believe in the beauty of their dreams.",
+    "author": "Eleanor Roosevelt",
+    "category": "Inspiration"
+  },
+  {
+    "id": 11,
+    "quote": "Knowing yourself is the beginning of all wisdom.",
+    "author": "Aristotle",
+    "category": "Wisdom"
+  },
+  {
+    "id": 12,
+    "quote": "The only true wisdom is in knowing you know nothing.",
+    "author": "Socrates",
+    "category": "Wisdom"
+  },
+  {
+    "id": 13,
+    "quote": "Turn your wounds into wisdom.",
+    "author": "Oprah Winfrey",
+    "category": "Wisdom"
+  },
+  {
+    "id": 14,
+    "quote": "Wisdom begins in wonder.",
+    "author": "Socrates",
+    "category": "Wisdom"
+  },
+  {
+    "id": 15,
+    "quote": "The fool doth think he is wise, but the wise man knows himself to be a fool.",
+    "author": "William Shakespeare",
+    "category": "Wisdom"
+  },
+  {
+    "id": 16,
+    "quote": "By three methods we may learn wisdom: First, by reflection, which is noblest; Second, by imitation, which is easiest; and third by experience, which is the bitterest.",
+    "author": "Confucius",
+    "category": "Wisdom"
+  },
+  {
+    "id": 17,
+    "quote": "Silence is a source of great strength.",
+    "author": "Lao Tzu",
+    "category": "Wisdom"
+  },
+  {
+    "id": 18,
+    "quote": "A journey of a thousand miles begins with a single step.",
+    "author": "Lao Tzu",
+    "category": "Wisdom"
+  },
+  {
+    "id": 19,
+    "quote": "Count your age by friends, not years. Count your life by smiles, not tears.",
+    "author": "John Lennon",
+    "category": "Wisdom"
+  },
+  {
+    "id": 20,
+    "quote": "The unexamined life is not worth living.",
+    "author": "Socrates",
+    "category": "Wisdom"
+  },
+  {
+    "id": 21,
+    "quote": "He who has a why to live can bear almost any how.",
+    "author": "Friedrich Nietzsche",
+    "category": "Philosophy"
+  },
+  {
+    "id": 22,
+    "quote": "You have power over your mind, not outside events. Realize this, and you will find strength.",
+    "author": "Marcus Aurelius",
+    "category": "Philosophy"
+  },
+  {
+    "id": 23,
+    "quote": "We suffer more often in imagination than in reality.",
+    "author": "Seneca",
+    "category": "Philosophy"
+  },
+  {
+    "id": 24,
+    "quote": "Happiness is not something readymade. It comes from your own actions.",
+    "author": "Dalai Lama",
+    "category": "Philosophy"
+  },
+  {
+    "id": 25,
+    "quote": "Man is condemned to be free; because once thrown into the world, he is responsible for everything he does.",
+    "author": "Jean-Paul Sartre",
+    "category": "Philosophy"
+  },
+  {
+    "id": 26,
+    "quote": "I think, therefore I am.",
+    "author": "Rene Descartes",
+    "category": "Philosophy"
+  },
+  {
+    "id": 27,
+    "quote": "Waste no more time arguing about what a good man should be. Be one.",
+    "author": "Marcus Aurelius",
+    "category": "Philosophy"
+  },
+  {
+    "id": 28,
+    "quote": "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.",
+    "author": "Ralph Waldo Emerson",
+    "category": "Philosophy"
+  },
+  {
+    "id": 29,
+    "quote": "The mind is everything. What you think you become.",
+    "author": "Buddha",
+    "category": "Philosophy"
+  },
+  {
+    "id": 30,
+    "quote": "When we are no longer able to change a situation, we are challenged to change ourselves.",
+    "author": "Viktor E. Frankl",
+    "category": "Philosophy"
+  },
+  {
+    "id": 31,
+    "quote": "Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world.",
+    "author": "Albert Einstein",
+    "category": "Science"
+  },
+  {
+    "id": 32,
+    "quote": "Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less.",
+    "author": "Marie Curie",
+    "category": "Science"
+  },
+  {
+    "id": 33,
+    "quote": "Somewhere, something incredible is waiting to be known.",
+    "author": "Carl Sagan",
+    "category": "Science"
+  },
+  {
+    "id": 34,
+    "quote": "If I have seen further, it is by standing on the shoulders of giants.",
+    "author": "Isaac Newton",
+    "category": "Science"
+  },
+  {
+    "id": 35,
+    "quote": "The important thing is not to stop questioning. Curiosity has its own reason for existing.",
+    "author": "Albert Einstein",
+    "category": "Science"
+  },
+  {
+    "id": 36,
+    "quote": "Look up at the stars and not down at your feet. Try to make sense of what you see, and wonder about what makes the universe exist. Be curious.",
+    "author": "Stephen Hawking",
+    "category": "Science"
+  },
+  {
+    "id": 37,
+    "quote": "Science is a way of thinking much more than it is a body of knowledge.",
+    "author": "Carl Sagan",
+    "category": "Science"
+  },
+  {
+    "id": 38,
+    "quote": "In science the credit goes to the man who convinces the world, not to the man to whom the idea first occurs.",
+    "author": "Francis Darwin",
+    "category": "Science"
+  },
+  {
+    "id": 39,
+    "quote": "We are an impossibility in an impossible universe.",
+    "author": "Ray Bradbury",
+    "category": "Science"
+  },
+  {
+    "id": 40,
+    "quote": "Equipped with his five senses, man explores the universe around him and calls the adventure Science.",
+    "author": "Edwin Hubble",
+    "category": "Science"
+  },
+  {
+    "id": 41,
+    "quote": "A leader is one who knows the way, goes the way, and shows the way.",
+    "author": "John C. Maxwell",
+    "category": "Leadership"
+  },
+  {
+    "id": 42,
+    "quote": "The greatest leader is not necessarily the one who does the greatest things. He is the one that gets the people to do the greatest things.",
+    "author": "Ronald Reagan",
+    "category": "Leadership"
+  },
+  {
+    "id": 43,
+    "quote": "Leadership and learning are indispensable to each other.",
+    "author": "John F. Kennedy",
+    "category": "Leadership"
+  },
+  {
+    "id": 44,
+    "quote": "It is better to lead from behind and to put others in front, especially when you celebrate victory when nice things occur.",
+    "author": "Nelson Mandela",
+    "category": "Leadership"
+  },
+  {
+    "id": 45,
+    "quote": "Before you are a leader, success is all about growing yourself. When you become a leader, success is all about growing others.",
+    "author": "Jack Welch",
+    "category": "Leadership"
+  },
+  {
+    "id": 46,
+    "quote": "Do not follow where the path may lead. Go instead where there is no path and leave a trail.",
+    "author": "Ralph Waldo Emerson",
+    "category": "Leadership"
+  },
+  {
+    "id": 47,
+    "quote": "If your actions inspire others to dream more, learn more, do more and become more, you are a leader.",
+    "author": "John Quincy Adams",
+    "category": "Leadership"
+  },
+  {
+    "id": 48,
+    "quote": "In matters of style, swim with the current; in matters of principle, stand like a rock.",
+    "author": "Thomas Jefferson",
+    "category": "Leadership"
+  },
+  {
+    "id": 49,
+    "quote": "To handle yourself, use your head; to handle others, use your heart.",
+    "author": "Eleanor Roosevelt",
+    "category": "Leadership"
+  },
+  {
+    "id": 50,
+    "quote": "Nearly all men can stand adversity, but if you want to test a man's character, give him power.",
+    "author": "Abraham Lincoln",
+    "category": "Leadership"
+  },
+  {
+    "id": 51,
+    "quote": "Life is what happens when you're busy making other plans.",
+    "author": "John Lennon",
+    "category": "Life"
+  },
+  {
+    "id": 52,
+    "quote": "In the end, it's not the years in your life that count. It's the life in your years.",
+    "author": "Abraham Lincoln",
+    "category": "Life"
+  },
+  {
+    "id": 53,
+    "quote": "Life is really simple, but we insist on making it complicated.",
+    "author": "Confucius",
+    "category": "Life"
+  },
+  {
+    "id": 54,
+    "quote": "The purpose of our lives is to be happy.",
+    "author": "Dalai Lama",
+    "category": "Life"
+  },
+  {
+    "id": 55,
+    "quote": "You only live once, but if you do it right, once is enough.",
+    "author": "Mae West",
+    "category": "Life"
+  },
+  {
+    "id": 56,
+    "quote": "Get busy living or get busy dying.",
+    "author": "Stephen King",
+    "category": "Life"
+  },
+  {
+    "id": 57,
+    "quote": "In three words I can sum up everything I've learned about life: it goes on.",
+    "author": "Robert Frost",
+    "category": "Life"
+  },
+  {
+    "id": 58,
+    "quote": "Not how long, but how well you have lived is the main thing.",
+    "author": "Seneca",
+    "category": "Life"
+  },
+  {
+    "id": 59,
+    "quote": "Life is either a daring adventure or nothing at all.",
+    "author": "Helen Keller",
+    "category": "Life"
+  },
+  {
+    "id": 60,
+    "quote": "To live is the rarest thing in the world. Most people exist, that is all.",
+    "author": "Oscar Wilde",
+    "category": "Life"
+  },
+  {
+    "id": 61,
+    "quote": "Always remember that you are absolutely unique. Just like everyone else.",
+    "author": "Margaret Mead",
+    "category": "Humor"
+  },
+  {
+    "id": 62,
+    "quote": "I am so clever that sometimes I don't understand a single word of what I am saying.",
+    "author": "Oscar Wilde",
+    "category": "Humor"
+  },
+  {
+    "id": 63,
+    "quote": "A day without sunshine is like, you know, night.",
+    "author": "Steve Martin",
+    "category": "Humor"
+  },
+  {
+    "id": 64,
+    "quote": "I can resist everything except temptation.",
+    "author": "Oscar Wilde",
+    "category": "Humor"
+  },
+  {
+    "id": 65,
+    "quote": "Behind every great man is a woman rolling her eyes.",
+    "author": "Jim Carrey",
+    "category": "Humor"
+  },
+  {
+    "id": 66,
+    "quote": "Better to remain silent and be thought a fool than to speak out and remove all doubt.",
+    "author": "Abraham Lincoln",
+    "category": "Humor"
+  },
+  {
+    "id": 67,
+    "quote": "If you think you are too small to make a difference, try sleeping with a mosquito.",
+    "author": "Dalai Lama",
+    "category": "Humor"
+  },
+  {
+    "id": 68,
+    "quote": "I have not failed. I've just found 10,000 ways that won't work.",
+    "author": "Thomas A. Edison",
+    "category": "Humor"
+  },
+  {
+    "id": 69,
+    "quote": "Age is something that doesn't matter, unless you are a cheese.",
+    "author": "Luis Bunuel",
+    "category": "Humor"
+  },
+  {
+    "id": 70,
+    "quote": "The only thing worse than being talked about is not being talked about.",
+    "author": "Oscar Wilde",
+    "category": "Humor"
+  },
+  {
+    "id": 71,
+    "quote": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+    "author": "Winston Churchill",
+    "category": "Success"
+  },
+  {
+    "id": 72,
+    "quote": "The road to success and the road to failure are almost exactly the same.",
+    "author": "Colin R. Davis",
+    "category": "Success"
+  },
+  {
+    "id": 73,
+    "quote": "Success usually comes to those who are too busy to be looking for it.",
+    "author": "Henry David Thoreau",
+    "category": "Success"
+  },
+  {
+    "id": 74,
+    "quote": "Don't be afraid to give up the good to go for the great.",
+    "author": "John D. Rockefeller",
+    "category": "Success"
+  },
+  {
+    "id": 75,
+    "quote": "I find that the harder I work, the more luck I seem to have.",
+    "author": "Thomas Jefferson",
+    "category": "Success"
+  },
+  {
+    "id": 76,
+    "quote": "Try not to become a man of success. Rather become a man of value.",
+    "author": "Albert Einstein",
+    "category": "Success"
+  },
+  {
+    "id": 77,
+    "quote": "Stop chasing the money and start chasing the passion.",
+    "author": "Tony Hsieh",
+    "category": "Success"
+  },
+  {
+    "id": 78,
+    "quote": "The secret of success is to do the common thing uncommonly well.",
+    "author": "John D. Rockefeller Jr.",
+    "category": "Success"
+  },
+  {
+    "id": 79,
+    "quote": "Success is walking from failure to failure with no loss of enthusiasm.",
+    "author": "Winston Churchill",
+    "category": "Success"
+  },
+  {
+    "id": 80,
+    "quote": "Whether you think you can or you think you can't, you're right.",
+    "author": "Henry Ford",
+    "category": "Success"
+  },
+  {
+    "id": 81,
+    "quote": "Courage is not the absence of fear, but rather the assessment that something else is more important than fear.",
+    "author": "Franklin D. Roosevelt",
+    "category": "Courage"
+  },
+  {
+    "id": 82,
+    "quote": "I learned that courage was not the absence of fear, but the triumph over it.",
+    "author": "Nelson Mandela",
+    "category": "Courage"
+  },
+  {
+    "id": 83,
+    "quote": "It takes courage to grow up and become who you really are.",
+    "author": "E.E. Cummings",
+    "category": "Courage"
+  },
+  {
+    "id": 84,
+    "quote": "Courage is resistance to fear, mastery of fear - not absence of fear.",
+    "author": "Mark Twain",
+    "category": "Courage"
+  },
+  {
+    "id": 85,
+    "quote": "You gain strength, courage, and confidence by every experience in which you really stop to look fear in the face.",
+    "author": "Eleanor Roosevelt",
+    "category": "Courage"
+  },
+  {
+    "id": 86,
+    "quote": "Have the courage to follow your heart and intuition. They somehow already know what you truly want to become.",
+    "author": "Steve Jobs",
+    "category": "Courage"
+  },
+  {
+    "id": 87,
+    "quote": "He who is not courageous enough to take risks will accomplish nothing in life.",
+    "author": "Muhammad Ali",
+    "category": "Courage"
+  },
+  {
+    "id": 88,
+    "quote": "Courage is being scared to death, but saddling up anyway.",
+    "author": "John Wayne",
+    "category": "Courage"
+  },
+  {
+    "id": 89,
+    "quote": "The brave man is not he who does not feel afraid, but he who conquers that fear.",
+    "author": "Nelson Mandela",
+    "category": "Courage"
+  },
+  {
+    "id": 90,
+    "quote": "Real courage is when you know you're licked before you begin, but you begin anyway and see it through no matter what.",
+    "author": "Harper Lee",
+    "category": "Courage"
+  },
+  {
+    "id": 91,
+    "quote": "A friend is someone who knows all about you and still loves you.",
+    "author": "Elbert Hubbard",
+    "category": "Friendship"
+  },
+  {
+    "id": 92,
+    "quote": "There is nothing on this earth more to be prized than true friendship.",
+    "author": "Thomas Aquinas",
+    "category": "Friendship"
+  },
+  {
+    "id": 93,
+    "quote": "Friendship is born at that moment when one person says to another, 'What! You too? I thought I was the only one.'",
+    "author": "C.S. Lewis",
+    "category": "Friendship"
+  },
+  {
+    "id": 94,
+    "quote": "A real friend is one who walks in when the rest of the world walks out.",
+    "author": "Walter Winchell",
+    "category": "Friendship"
+  },
+  {
+    "id": 95,
+    "quote": "No act of kindness, no matter how small, is ever wasted.",
+    "author": "Aesop",
+    "category": "Friendship"
+  },
+  {
+    "id": 96,
+    "quote": "Be kind whenever possible. It is always possible.",
+    "author": "Dalai Lama",
+    "category": "Friendship"
+  },
+  {
+    "id": 97,
+    "quote": "In the sweetness of friendship let there be laughter, and sharing of pleasures.",
+    "author": "Khalil Gibran",
+    "category": "Friendship"
+  },
+  {
+    "id": 98,
+    "quote": "True friendship comes when the silence between two people is comfortable.",
+    "author": "David Tyson",
+    "category": "Friendship"
+  },
+  {
+    "id": 99,
+    "quote": "Walking with a friend in the dark is better than walking alone in the light.",
+    "author": "Helen Keller",
+    "category": "Friendship"
+  },
+  {
+    "id": 100,
+    "quote": "The only way to have a friend is to be one.",
+    "author": "Ralph Waldo Emerson",
+    "category": "Friendship"
+  }
+]
